@@ -38,7 +38,7 @@ variable "instance_type" {
 variable "instance_names" {
   description = "Name of EC2 instance"
   type        = list(string)
-  default     = ["vm1", "vm2", "vm3"]
+  default     = ["cicd-vm"]
 }
 
 variable "user_data" {
