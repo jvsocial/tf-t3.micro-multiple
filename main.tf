@@ -5,7 +5,7 @@ resource "aws_instance" "project_demo" {
   ami           = var.ami_id
   instance_type = var.instance_type
   tags = {
-    Name = each.key.instance_names
+    Name = each.key
   }
 
 
